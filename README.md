@@ -16,3 +16,7 @@ ReactHooks para gerenciamento de estados;
 
 - npm install > para baixar as dependências;
 - npm start > para rodar o projeto.
+
+## 💫 Para acessar
+
+- https://amandabenevides.github.io/desafioFDO/
