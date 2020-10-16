@@ -21,8 +21,9 @@ function TodoList() {
     };
 
     // Marcando tarefa como completa
-    function handleCompleteTodo(id) {
-        document.getElementById(id).setAttribute("class", "written");
+    function handleCompleteTodo(id, title) {
+        document.getElementById(title).setAttribute("class", "written");
+        document.getElementById(id).checked = true;
     };
 
     return (
@@ -34,10 +35,10 @@ function TodoList() {
                         <li><input type="checkbox" checked ></input> Publicar no GitHub </li>
                         {todos.map(todo => (
                             <li key={todo.id}>
-                                <input type="checkbox" /> <span className="write" id={todo.id}> {todo.title} </span>
+                                <input type="checkbox" id={todo.id}/> <span className="write" id={todo.title}> {todo.title} </span>
                                 <div className="button-wrap">
                                     <button onClick={() => handleDeleteTodo(todo.id)}> excluir </button>
-                                    <button onClick={() => handleCompleteTodo(todo.id)}> completar </button>
+                                    <button onClick={() => handleCompleteTodo(todo.id,todo.title)}> completar </button>
                                 </div>
                             </li>))}
                         <div className="form-wrap">
