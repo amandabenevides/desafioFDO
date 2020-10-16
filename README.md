@@ -2,6 +2,7 @@
 ## 💻 Projeto
 
 Desafio técnico FDO
+
 Lista de tarefas to-do utilizando:
 
 - Mobile first
