@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/desafioFDO/static/css/main.04062433.chunk.css",
+    "main.js": "/desafioFDO/static/js/main.541eba15.chunk.js",
+    "main.js.map": "/desafioFDO/static/js/main.541eba15.chunk.js.map",
+    "runtime-main.js": "/desafioFDO/static/js/runtime-main.4f4b8989.js",
+    "runtime-main.js.map": "/desafioFDO/static/js/runtime-main.4f4b8989.js.map",
+    "static/js/2.51b44585.chunk.js": "/desafioFDO/static/js/2.51b44585.chunk.js",
+    "static/js/2.51b44585.chunk.js.map": "/desafioFDO/static/js/2.51b44585.chunk.js.map",
+    "index.html": "/desafioFDO/index.html",
+    "precache-manifest.b7b11b16a0ada51fd136ac4ca3c40955.js": "/desafioFDO/precache-manifest.b7b11b16a0ada51fd136ac4ca3c40955.js",
+    "service-worker.js": "/desafioFDO/service-worker.js",
+    "static/css/main.04062433.chunk.css.map": "/desafioFDO/static/css/main.04062433.chunk.css.map",
+    "static/js/2.51b44585.chunk.js.LICENSE.txt": "/desafioFDO/static/js/2.51b44585.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f4b8989.js",
+    "static/js/2.51b44585.chunk.js",
+    "static/css/main.04062433.chunk.css",
+    "static/js/main.541eba15.chunk.js"
+  ]
+}
