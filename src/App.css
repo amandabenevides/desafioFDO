@@ -1,38 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Sue+Ellen+Francisco&display=swap");
+
+body {
+  margin: 0px !important;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: "Sue Ellen Francisco", cursive;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list {
+  color: #555;
+  padding: 0 !important;
+  width: 50vw;
+  height: 100%;
+  border: 1px solid #dedede;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.list li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+}
+
+.list li:hover {
+  background-color: #f0f0f0;
+}
+
+.lines {
+  border-left: 1px solid #ffaa9f;
+  border-right: 1px solid #ffaa9f;
+  float: left;
+  margin-left: 40px;
+  margin-top: 1em;
+  background-color: white;
+  margin-bottom: 1em;
+}
+
+.list-wrap {
+  background-color: white;
+}
+
+.title {
+  font-family: "Amatic SC", cursive;
+  font-size: calc(15px + 5vmin);
+  text-align: center;
+  color: rgb(49, 49, 49);
+}
+
+button {
+  border: 0;
+  background: rgb(156, 81, 226);
+  border-radius: 7px;
+  padding: 0.5vh 0.5vw;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.5s;
+  outline: none !important;
+  margin-left: 1em;
+  text-transform: uppercase;
+  font-size: 40%;
+}
+
+button:hover {
+  background: rgb(121, 35, 201);
+}
+
+.form {
+  color: #555;
+  border: 0;
+  outline-offset: none !important;
+  font-size: inherit;
+  font-family: "Sue Ellen Francisco";
+}
+
+.form-wrap {
+  padding-left: 2em;
+}
+
+.written {
+  text-decoration-line: line-through;
+}
+
+.button-wrap {
+  display: inline;
+}
+
+::placeholder {
+  /* color: #6a94be; */
+  color: rgb(180, 157, 214);
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(180, 157, 214);
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(180, 157, 214);
+}
+
+/* Responsive */
+
+@media (max-width: 450px) {
+  .button-wrap {
+    display: block;
   }
 }
