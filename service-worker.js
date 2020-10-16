@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/desafioFDO/precache-manifest.b7b11b16a0ada51fd136ac4ca3c40955.js"
+  "/desafioFDO/precache-manifest.7f464215195db803bc9c2038714de400.js"
 );
 
 self.addEventListener('message', (event) => {
